@@ -65,6 +65,8 @@ public class MainPreferences extends FieldEditorPreferencePage implements IWorkb
 		addField(new ColorFieldEditor(ColorManager.COLOR_TAG, UIUtil.getResourceLabel("XMLTag"), getFieldEditorParent()));
 		addField(new ColorFieldEditor(ColorManager.COLOR_XML_COMMENT, UIUtil.getResourceLabel("XMLComment"),
 				getFieldEditorParent()));
+		addField(new ColorFieldEditor(ColorManager.COLOR_DEFAULT, UIUtil.getResourceLabel("XMLDefault"),
+		                              getFieldEditorParent()));
 		{
 			IntegerFieldEditor integerFieldEditor = new IntegerFieldEditor(AUTO_COMPLETE_DEPLAY, "Auto Completion Delay(ms):",
 					getFieldEditorParent());

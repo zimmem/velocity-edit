@@ -59,7 +59,7 @@ public class ColorManager {
 		defaultColorMap.put(COLOR_STRING, STRING);
 		defaultColorMap.put(COLOR_TAG, TAG);
 		defaultColorMap.put(COLOR_PROC_INSTR, PROC_INSTR);
-		defaultColorMap.put(COLOR_DEFAULT, DEFAULT);
+        defaultColorMap.put(COLOR_DEFAULT, DEFAULT);
 		defaultColorMap.put(COLOR_LINK, LINK);
 	}
 
