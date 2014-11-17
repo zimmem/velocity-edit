@@ -1,72 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?eclipse version="3.6"?>
 <plugin
-   id="com.hudson.velocityweb"
-   name="Velocity Edit"
-   version="1.6.5"
    provider-name="Sefler Zhou email: sefler@126.com"
    class="com.hudson.velocityweb.Plugin">
-
-   <runtime>
-      <library name="velocity-1.6.2-dep.jar">
-         <export name="*"/>
-      </library>
-      <library name="dtdparser121.jar">
-         <export name="*"/>
-      </library>
-      <library name="."/>
-      <library name="commons-lang3-3.1.jar">
-         <export
-               name="*">
-         </export>
-      </library>
-      <library name="IKAnalyzer2012.jar">
-         <export
-               name="*">
-         </export>
-      </library>
-      <library name="lucene-core-3.6.0.jar">
-         <export
-               name="*">
-         </export>
-      </library>
-      <library name="lucene-highlighter-3.6.0.jar">
-         <export
-               name="*">
-         </export>
-      </library>
-      <library name="lucene-memory-3.6.0.jar">
-         <export
-               name="*">
-         </export>
-      </library>
-      <library name="jtidy-r938.jar">
-         <export
-               name="*">
-         </export>
-      </library>
-      <library name="htmlparser.jar">
-         <export
-               name="*">
-         </export>
-      </library>
-   </runtime>
-
-   <requires>
-      <import plugin="org.eclipse.ui"/>
-      <import plugin="org.eclipse.ui.editors"/>
-      <import plugin="org.eclipse.ui.workbench.texteditor"/>
-      <import plugin="org.eclipse.core.runtime"/>
-      <import plugin="org.eclipse.core.resources"/>
-      <import plugin="org.eclipse.jface.text"/>
-      <import plugin="org.eclipse.jdt.ui"/>
-      <import plugin="org.eclipse.ui.ide"/>
-      <import plugin="org.eclipse.ui.views"/>
-      <import plugin="org.eclipse.jdt.core"/>
-      <import plugin="org.eclipse.compare"/>
-      <import plugin="org.eclipse.emf.ecore" />
-      <import plugin="org.eclipse.emf.common.ui" />
-   </requires>
 
    <extension
          point="org.eclipse.ui.editors">
