@@ -26,3 +26,5 @@ Bundle-ClassPath: .,
   lib/lucene-highlighter-3.6.0.jar,
   lib/lucene-memory-3.6.0.jar,
   lib/velocity-1.6.2-dep.jar
+Bundle-ActivationPolicy: lazy
+Bundle-Activator: com.hudson.velocityweb.Plugin
