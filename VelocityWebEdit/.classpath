@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-lang3-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/dtdparser121.jar"/>
+	<classpathentry kind="lib" path="lib/htmlparser.jar"/>
+	<classpathentry kind="lib" path="lib/IKAnalyzer2012.jar"/>
+	<classpathentry kind="lib" path="lib/jtidy-r938.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-core-3.6.0-sources.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-core-3.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-highlighter-3.6.0-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-highlighter-3.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/lucene-memory-3.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/velocity-1.6.2-dep.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
