@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/VelocityWebEdit_1.0.0.201411290125.jar" id="VelocityWebEdit" version="1.0.0.201411290125"/>
+   <category-def name="VelocityWebEdit" label="VelocityWebEdit"/>
+</site>
